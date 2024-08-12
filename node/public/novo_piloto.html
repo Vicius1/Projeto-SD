@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Piloto</title>
+    <link rel="stylesheet" href="css/novo_piloto.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro de Piloto 🏁</h1>
+        <button class="nav-button" onclick="window.location.href='index.html';">Ver Gráfico</button>
+        <form id="pilotForm">
+            <label for="name">Nome do Piloto:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="points">Pontos do Piloto:</label>
+            <input type="number" id="points" name="points" required>
+
+            <label for="email">E-mail para confirmação:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <button type="submit">Cadastrar Piloto</button>
+        </form>
+        <div class="message" id="message"></div>
+    </div>
+    <script src="js/novo_piloto.js"></script>
+</body>
+</html>
+
